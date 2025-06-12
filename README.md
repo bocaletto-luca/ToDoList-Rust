@@ -42,48 +42,48 @@ cargo script --build todo.rs
 
 📖 Usage
 
-# Add a new task
-todo add "Buy groceries"
+#### Add a new task
+    todo add "Buy groceries"
 
-# List all tasks
-todo list
+#### List all tasks
+    todo list
 
-# Mark task #3 done
+#### Mark task #3 done
 todo done 3
 
-# Remove task #2
+#### Remove task #2
 todo remove 2
 
-# Clear all tasks
+#### Clear all tasks
 todo clear
 
-Sample Session
+## Sample Session
 
-$ todo list
-No tasks found.
+    $ todo list
+    No tasks found.
 
-$ todo add "Write README"
-[+] Added #1: Write README
+    $ todo add "Write README"
+    [+] Added #1: Write README
 
-$ todo add "Test CLI"
-[+] Added #2: Test CLI
+    $ todo add "Test CLI"
+    [+] Added #2: Test CLI
 
-$ todo list
-[ ] 1: Write README
-[ ] 2: Test CLI
+    $ todo list
+    [ ] 1: Write README
+    [ ] 2: Test CLI
 
-$ todo done 1
-[✓] Marked #1 done.
+    $ todo done 1
+    [✓] Marked #1 done.
 
-$ todo list
-[x] 1: Write README
-[ ] 2: Test CLI
+    $ todo list
+    [x] 1: Write README
+    [ ] 2: Test CLI
 
-$ todo remove 2
-[-] Removed #2.
+    $ todo remove 2
+    [-] Removed #2.
 
-$ todo clear
-[!] All tasks cleared.
+    $ todo clear
+    [!] All tasks cleared.
 
 🗂️ Data Storage
 
@@ -102,6 +102,8 @@ Tasks are stored in:
     Ensure tasks persist correctly and CLI flags work
 
     Submit a Pull Request
+
+---
 
 📄 License
 
